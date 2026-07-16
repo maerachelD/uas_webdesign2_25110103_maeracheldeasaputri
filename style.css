@@ -1,35 +1,30 @@
-/* Styling Slider Carousel */
 .carousel-item {
     background-size: cover;
-    background-position: right center; /* Durian aman bergeser ke kanan layar */
+    background-position: right center;
     background-repeat: no-repeat;
-    transition: transform 0.6s ease-in-out; /* Efek geser halus jaman sekarang */
+    transition: transform 0.6s ease-in-out;
 }
 
-/* Styling Slider Carousel Utama */
 .carousel-item {
-    height: 70vh; /* Membatasi tinggi slide agar pas di layar HP */
+    height: 70vh;
     min-height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1e3f20; /* Warna hijau tua cadangan jika gambar telat dimuat */
+    background-color: #1e3f20;
 }
 
-/* Slide 1: Pastikan nama file gambar sesuai dengan yang ada di folder img kamu */
+
 .item-slide-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('img/background_insyira.jpg');
 }
 
-/* Slide 2 */
 .item-slide-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/bolu_gulung_durian_insyira.jpg');
 }
 
-/* Merapikan posisi tombol indikator di bawah */
 .carousel-indicators [button] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-}
-
+        }
