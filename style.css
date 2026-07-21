@@ -14,7 +14,6 @@
     background-color: #1e3f20;
 }
 
-
 .item-slide-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('img/background_insyira.jpg');
 }
@@ -27,4 +26,33 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-        }
+}
+
+
+.img-hover-effect img {
+    transition: transform 0.3s ease;
+}
+.img-hover-effect:hover img {
+    transform: scale(1.05);
+}
+
+
+.custom-product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.custom-product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.custom-product-card .img-container img {
+    transition: transform 0.5s ease;
+}
+
+.custom-product-card:hover .img-container img {
+    transform: scale(1.08);
+}
